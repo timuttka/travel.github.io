@@ -1,0 +1,352 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.header {
+    padding-top: 50px;
+    background:url(/amg/55.png) center center no-repeat;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 100px;
+    color:aliceblue;
+    font-size: 20px;
+    
+    font-weight: 400;
+    letter-spacing: 0.14em;
+}
+
+.menu a:last-child {
+    margin-right: 0px;
+}
+
+.head-text {
+    text-align: center;
+    margin-top: 200px;
+} 
+
+.head-text h1 {
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff
+    
+}
+
+.head-text p {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #ffffff;
+}
+
+.head-text button {
+    text-transform:uppercase;
+    letter-spacing: 2.52px;
+    transition:ease-in .25s all;
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 70px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #ffffff
+   
+}
+
+.header button:hover{
+    background-color: white;
+    color: black;
+    border-color:black;
+}
+
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about-text span{
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #c4c4c4;
+    
+}
+
+.about-text h2{
+    margin-top: 32px; 
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.about-text p{
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+
+.photos {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.photos h2 {
+    margin-bottom: 30px;
+    font-size: 31.9px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    color: #000000;
+}
+
+.photos p {
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+
+.about button {
+    text-transform:uppercase;
+    letter-spacing: 2.52px;
+    transition:ease-in .25s all;
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 70px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid black
+    
+}
+
+.about button:hover{
+    background-color: black;
+    color: white;
+    border-color:black;
+}
+    
+.photo-wrap img {
+    margin: 10px ;
+}
+
+.company-text{
+    text-align: center;
+}
+
+.company {
+    margin-top: 200px;
+}
+
+.company-text h2{
+    font-size: 31.9px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    color: #000000;
+}
+
+.company-text p{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+
+.company-wrap{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.company-block1 {
+    margin-right: 34px;
+    
+}
+
+.company-block h3{
+    margin-top:63px ;
+    font-size: 19.2px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.company-block p {
+    margin-top: 45px;
+    font-family: Montserrat;
+    font-size: 19px;
+    line-height: 41px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #848484;
+}
+
+.company-block button {
+    margin-top: 70px;
+    padding:10px 33px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.next-tour {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.tour-text span {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #c4c4c4;
+}
+
+.tour-text h2{
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.tour-text p {
+    margin-top: 50px;
+
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+
+.send {
+    padding: 150px 0px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.send-text h2{
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.send-text {
+    margin-right: 100px;
+}
+
+.send-text p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #5b5b5c;
+}
+
+input {
+    padding: 13px 15px;
+    background: transparent;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #3a4047;
+    border: 2px solid #7a7a7a;
+    margin-right: 47px;
+}
+
+form button {
+    cursor: pointer;
+    border: none;
+    padding: 12px 70px;
+    background-color: #3a4047;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #ffffff;
+    transition: .25s;
+}
+
+form button:hover{
+    background-color: white;
+    color: black;
+    border:1px solid black;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footermenu a{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.footermenu h2{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.34em;
+    color: #000000;
+}
+.footermenu p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
